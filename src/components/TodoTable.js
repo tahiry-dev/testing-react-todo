@@ -4,7 +4,13 @@ function TodoTable({ currentInput, handleInput, handleKeyPress, inputArr, handle
   return (
     <div className='inputTable'>
       <h3>TODO</h3>
-      <input value={currentInput} onChange={handleInput} onKeyDown={handleKeyPress} type="text" />
+      <input 
+        value={currentInput} 
+        onChange={handleInput} 
+        onKeyDown={handleKeyPress} 
+        type="text" 
+        placeholder="Enter your todo"
+        />
       <ul>
         {inputArr.map((item, index) => (
           <li key={index}><input onClick={() => handleCheckboxClick(index)} type="checkbox"/> {item}</li>

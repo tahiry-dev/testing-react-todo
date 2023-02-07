@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoTable renders the component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="inputTable"
+  >
+    <h3>
+      TODO
+    </h3>
+    <input
+      placeholder="Enter your todo"
+      type="text"
+      value=""
+    />
+    <ul />
+  </div>
+</DocumentFragment>
+`;
